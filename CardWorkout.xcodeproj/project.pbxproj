@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FE3FDB6E2A2C2948006BD19B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDB6D2A2C2948006BD19B /* AppDelegate.swift */; };
 		FE3FDB702A2C2948006BD19B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDB6F2A2C2948006BD19B /* SceneDelegate.swift */; };
-		FE3FDB722A2C2948006BD19B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDB712A2C2948006BD19B /* ViewController.swift */; };
 		FE3FDB752A2C2948006BD19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3FDB732A2C2948006BD19B /* Main.storyboard */; };
 		FE3FDB772A2C2948006BD19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3FDB762A2C2948006BD19B /* Assets.xcassets */; };
 		FE3FDB7A2A2C2948006BD19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3FDB782A2C2948006BD19B /* LaunchScreen.storyboard */; };
+		FE3FDB822A2C2D1E006BD19B /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3FDB812A2C2D1E006BD19B /* CardSelectionVC.swift */; };
+		FEBF87812A2D1EE500C2BD72 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF87802A2D1EE500C2BD72 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE3FDB6A2A2C2948006BD19B /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3FDB6D2A2C2948006BD19B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE3FDB6F2A2C2948006BD19B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE3FDB712A2C2948006BD19B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE3FDB742A2C2948006BD19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE3FDB762A2C2948006BD19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3FDB792A2C2948006BD19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE3FDB7B2A2C2948006BD19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3FDB812A2C2D1E006BD19B /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		FEBF87802A2D1EE500C2BD72 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				FE3FDB6D2A2C2948006BD19B /* AppDelegate.swift */,
 				FE3FDB6F2A2C2948006BD19B /* SceneDelegate.swift */,
-				FE3FDB712A2C2948006BD19B /* ViewController.swift */,
+				FE3FDB812A2C2D1E006BD19B /* CardSelectionVC.swift */,
 				FE3FDB732A2C2948006BD19B /* Main.storyboard */,
 				FE3FDB762A2C2948006BD19B /* Assets.xcassets */,
 				FE3FDB782A2C2948006BD19B /* LaunchScreen.storyboard */,
 				FE3FDB7B2A2C2948006BD19B /* Info.plist */,
+				FEBF87802A2D1EE500C2BD72 /* Deck.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3FDB722A2C2948006BD19B /* ViewController.swift in Sources */,
+				FEBF87812A2D1EE500C2BD72 /* Deck.swift in Sources */,
 				FE3FDB6E2A2C2948006BD19B /* AppDelegate.swift in Sources */,
 				FE3FDB702A2C2948006BD19B /* SceneDelegate.swift in Sources */,
+				FE3FDB822A2C2D1E006BD19B /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
